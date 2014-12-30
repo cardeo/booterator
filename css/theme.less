@@ -1,0 +1,193 @@
+/* CONTENTS
+/////////////////////////////////////
+*/
+// 00. LESS
+/*
+01. BASE
+02. LAYOUT
+03. MODULES
+04. STATE
+
+This stylesheet is a starting place. Include your own Base, Layout
+Modules, and State styles below.
+
+This style sheet organization is based on the SMACCS system. 
+Please visit the following website for more info: http://smacss.com/
+*/
+
+// Load LESS Library 
+@import "components/_variables";
+
+/****************************
+/////////////////////////////
+
+01. BASE
+
+All base HTML tags that require styling
+
+/////////////////////////////
+****************************/
+
+body {
+  background: @primary-background;
+  font-family: @body-copy;
+  font-size: @base-font-size;
+  line-height: @base-line-height;
+  color: @primary-text; 
+}
+
+ul,
+ol {
+
+}
+
+li {
+
+}
+
+a, a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+p {
+
+
+}
+
+hr {
+
+}
+
+/***************************
+////////////////////////////
+
+02. LAYOUT
+
+Styles specific to your layout or website
+
+////////////////////////////
+***************************/
+
+.header {
+	
+}
+
+.footer {
+	margin-top: (@padding * 6);
+	padding-bottom: (@padding * 12);
+	padding-top: @padding;
+	border-top: @border-size @border-color @border-type;
+	color: @light-text;
+}
+
+/***************************
+////////////////////////////
+
+03. MODULES
+
+Reusable classes or components
+
+////////////////////////////
+***************************/
+
+@import "components/_colors.less";
+
+
+/*
+
+Potential modules you could replace...
+
+badges
+
+breadcrumb
+
+buttons
+
+button groups
+
+button dropdowns 
+
+carousel
+
+code 
+
+collapse
+
+colors
+
+dropdown
+
+forms
+
+icons
+
+input groups 
+
+images
+
+helpers
+
+jumbotron
+
+labels
+
+list group
+
+media object
+
+modal
+
+navs
+
+navbar
+
+pager
+
+page header
+
+pagination
+
+panels
+
+pills
+
+popover
+
+progress bars
+
+scrollspy
+
+tables
+
+tabs
+
+thumbnails
+
+tooltip
+
+typography
+
+well
+
+
+/***************************
+////////////////////////////
+
+04. STATES
+
+////////////////////////////
+***************************/
+
+/* 
+
+Potential states you could replace...
+
+alerts
+
+form validation
+
+*/
