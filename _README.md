@@ -17,6 +17,16 @@ Dependancies:
 * Harp.js
 * Less
 
+changelog
+==========
+
+* feb 13, 2015 - upgraded to Bootstrap 3.3.2
+
+
+license
+==========
+
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Matt Lambert
@@ -38,3 +48,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
